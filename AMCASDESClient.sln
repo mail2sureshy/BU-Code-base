@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMCASDESClient", "AMCASDESClient\AMCASDESClient.csproj", "{86CBDD31-E56B-4877-AFB6-3B3584B9593F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMCASDESClient.Tests", "AMCASDESClient.Tests\AMCASDESClient.Tests.csproj", "{84AD0798-6B97-47E2-9567-F51E79F1114F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMCASDESDAL", "AMCASDESDAL\AMCASDESDAL.csproj", "{670F4E17-2213-4596-A966-D39C61216949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMCASDESModels", "AMCASDESModels\AMCASDESModels.csproj", "{64ABF062-3BCF-49C2-A6D9-F481A6B1B1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMCASDESLoadRefTablesData", "AMCASDESRef\AMCASDESLoadRefTablesData.csproj", "{B89125E8-C048-4C47-B428-C9EBE108EA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMCASDESWindowsService", "AMCASDESWindowsService\AMCASDESWindowsService.csproj", "{CE688455-B73F-428B-9934-B1CA58CBAC6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CBDD31-E56B-4877-AFB6-3B3584B9593F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CBDD31-E56B-4877-AFB6-3B3584B9593F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CBDD31-E56B-4877-AFB6-3B3584B9593F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CBDD31-E56B-4877-AFB6-3B3584B9593F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AD0798-6B97-47E2-9567-F51E79F1114F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AD0798-6B97-47E2-9567-F51E79F1114F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AD0798-6B97-47E2-9567-F51E79F1114F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AD0798-6B97-47E2-9567-F51E79F1114F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670F4E17-2213-4596-A966-D39C61216949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670F4E17-2213-4596-A966-D39C61216949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670F4E17-2213-4596-A966-D39C61216949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670F4E17-2213-4596-A966-D39C61216949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64ABF062-3BCF-49C2-A6D9-F481A6B1B1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ABF062-3BCF-49C2-A6D9-F481A6B1B1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ABF062-3BCF-49C2-A6D9-F481A6B1B1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ABF062-3BCF-49C2-A6D9-F481A6B1B1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89125E8-C048-4C47-B428-C9EBE108EA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89125E8-C048-4C47-B428-C9EBE108EA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89125E8-C048-4C47-B428-C9EBE108EA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89125E8-C048-4C47-B428-C9EBE108EA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE688455-B73F-428B-9934-B1CA58CBAC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE688455-B73F-428B-9934-B1CA58CBAC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE688455-B73F-428B-9934-B1CA58CBAC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE688455-B73F-428B-9934-B1CA58CBAC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://bumc-tfs:8080/tfs/bumc-it-appsrvs
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AMCASDESClient\\AMCASDESClient.csproj
+		SccProjectName1 = AMCASDESClient
+		SccLocalPath1 = AMCASDESClient
+		SccProjectUniqueName2 = AMCASDESClient.Tests\\AMCASDESClient.Tests.csproj
+		SccProjectName2 = AMCASDESClient.Tests
+		SccLocalPath2 = AMCASDESClient.Tests
+		SccProjectUniqueName3 = AMCASDESDAL\\AMCASDESDAL.csproj
+		SccProjectName3 = AMCASDESDAL
+		SccLocalPath3 = AMCASDESDAL
+		SccProjectUniqueName4 = AMCASDESModels\\AMCASDESModels.csproj
+		SccProjectName4 = AMCASDESModels
+		SccLocalPath4 = AMCASDESModels
+		SccProjectUniqueName5 = AMCASDESRef\\AMCASDESLoadRefTablesData.csproj
+		SccProjectName5 = AMCASDESRef
+		SccLocalPath5 = AMCASDESRef
+		SccProjectUniqueName6 = AMCASDESWindowsService\\AMCASDESWindowsService.csproj
+		SccProjectName6 = AMCASDESWindowsService
+		SccLocalPath6 = AMCASDESWindowsService
+	EndGlobalSection
+EndGlobal
